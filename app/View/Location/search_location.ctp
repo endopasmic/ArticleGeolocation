@@ -17,12 +17,7 @@ Search Map position <div id="jp">マップから場所を探す</div><br/>
      
 	<input type="hidden" name="latitude" value="0" />
 	<input type="hidden" name="longitude" value="0" />
-	
-	Location Name <span id="jp">場所名前</span>
-	<br/>
-	<input type="text" name="location_name" />
-	<br/>
-		
+			
 	Memo　<span id="jp">メモ</span>
 	<br/>
 	<input type="text" name="memo" />

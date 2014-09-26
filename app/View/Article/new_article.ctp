@@ -20,17 +20,10 @@
 		<br/>
 	</div>
 
-	<div id="anime_title">
-		Anime Title　<span id="jp">アニメタイトル</span>
-		<br/>
-		<input type="text" name="anime_title" />
-		<br/>
-	</div>
-
 	<div id="summary">
 		Summary Detail　<span id="jp">まとめ内容</span>
 		<br/>
-		<input type="text" name="summary" />
+		<textarea name="summary" row="4" col="50"></textarea>
 		<br/>
 	</div>
 

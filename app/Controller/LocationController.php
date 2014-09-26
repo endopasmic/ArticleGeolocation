@@ -25,12 +25,10 @@ class LocationController extends AppController{
 			$Longitude = $_POST['longitude'];
 			$UserId = $this->Session->read('UserId');
 			$Memo = $_POST['memo'];
-			$LocationName = $_POST['location_name'];
 			
 			$this->Location->create();
 			$this->Location->save(array(
 				'user_id' => $UserId,	
-				'location_name' => $LocationName,
 				'location_memo' => $Memo,
 				'latitude' => $Latitude,
 				'longitude' => $Longitude,
@@ -59,12 +57,10 @@ class LocationController extends AppController{
 			$UserId = $this->Session->read('UserId');
 			
 			$Memo = $_POST['memo'];
-			$LocationName = $_POST['location_name'];
 			
 			$this->Location->create();
 			$this->Location->save(array(
 				'user_id' => $UserId,
-				'location_name' => $LocationName,
 				'location_memo' => $Memo,
 				'latitude' => $Latitude,
 				'longitude' => $Longitude,
